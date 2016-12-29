@@ -11,8 +11,10 @@ import MyClasses.Folder;
 
 public class Main {
 //hi test test ok bye
+    //وصل شريط
     
     public static void main(String[] args) {
+        ///ok test مرة تانية من هون
         Scanner in = new Scanner(System.in);
         Folder folder = null;
         Files fl;
@@ -70,7 +72,7 @@ while(ok) {
                 fl = new Files(tmp);
                 System.out.println("Do you want to read this file or write to it ? (r/w)");
                 choice = in.next();
-                if (choice == "w") {
+                if (choice.equals("w") ) {
                     System.out.print("Enter your text :");
                     choice = in.next();
                     fl.writeToFile(choice);
