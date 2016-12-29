@@ -10,11 +10,9 @@ import MyClasses.Folder;
 
 
 public class Main {
-//hi test test ok bye
-    //وصل شريط
-    
+
     public static void main(String[] args) {
-        ///ok test مرة تانية من هون
+     
         Scanner in = new Scanner(System.in);
         Folder folder = null;
         Files fl;
